@@ -53,10 +53,11 @@ const PosterMovie = ({
                 <span>{gender}</span>
               </p>
               <p>
+              homeworld:
                 <span>{homeworld}</span>
               </p>
               <button className="btn-close" onClick={close}>
-                Cerrar &times;
+                Close &times;
               </button>
             </div>
           </div>
