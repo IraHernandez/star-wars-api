@@ -1,0 +1,17 @@
+header {
+  color: var(--white);
+  padding-block: 1rem;
+  background-image: url("../../assets/images/fondoCielo.jpg")
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    /* justify-content: space-between; */
+  }
+}

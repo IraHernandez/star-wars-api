@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap");
+:root {
+  --white: #ffffff;
+  --primary: #fed941;
+  --black: #000000;
+  --background: #0f0e17;
+  --grey: #a7a9be;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("./assets/images/fondoCielo.jpg");
+  font-family: 'Poller One', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.debug {
+  outline: 1px solid red;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+h1{
+  font-size:4rem;
+}

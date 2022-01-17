@@ -1,0 +1,55 @@
+.poster-container img:hover {
+  cursor: pointer;
+}
+
+.desactive {
+  display: none;
+}
+
+.modalContainer {
+  height: 60vh;
+  position: fixed;
+  left: 10%;
+  top: 20%;
+  right: 10%;
+}
+
+.posterModal {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.posterModal img {
+  width: 50%;
+  object-fit: contain;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+
+  background-color: rgba(17, 17, 17, 0.562);
+  /* background-color: rgba(3, 3, 3, 0.342); */
+}
+
+.btn-close {
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: var(--primary);
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    flex-direction: row;
+  }
+  .posterInfo{
+    flex: 1 0 50%;
+  }    
+}

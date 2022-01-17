@@ -1,0 +1,13 @@
+.carousel-container {
+  position: relative;
+}
+
+.button-hero:active {
+  transform: scale(1.1);
+}
+
+.button-hero span {
+  font-weight: 900;
+  /* font-weight: bolder; */
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
